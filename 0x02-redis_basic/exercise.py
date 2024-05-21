@@ -127,4 +127,3 @@ class Cache:
             int: The retrieved integer or None if the key does not exist.
         """
         return self.get(key, lambda d: int(d))
-
